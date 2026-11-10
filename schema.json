@@ -1,0 +1,38 @@
+{
+    "columns": [
+        "age",
+        "semester",
+        "cgpa",
+        "marks",
+        "attendance_pct"
+    ],
+    "types": {
+        "age": "numeric",
+        "semester": "numeric",
+        "cgpa": "numeric",
+        "marks": "numeric",
+        "attendance_pct": "numeric"
+    },
+    "domain": {
+        "age": {
+            "min": 16,
+            "max": 60
+        },
+        "semester": {
+            "min": 1,
+            "max": 16
+        },
+        "cgpa": {
+            "min": 0,
+            "max": 4
+        },
+        "marks": {
+            "min": 0,
+            "max": 100
+        },
+        "attendance_pct": {
+            "min": 0,
+            "max": 100
+        }
+    }
+}
